@@ -1,0 +1,11 @@
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJCcmV0IiwiaWF0IjoxNjgyMDY2ODQxLCJleHAiOjE2ODIwNjY5MDF9.Og1BtdYbMCPsltpiF3Fouc2Ns6S30KnGl5YnyeP8L7U
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "username": "Bret",
+  "password": "123456"
+}
